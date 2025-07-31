@@ -1,5 +1,5 @@
   <div id="letter-content" style="display:none; width:100vw; height:100vh; position:fixed; top:0; left:0; z-index:20; background:none; justify-content:center; align-items:center;">
-    <img src="Assets/Letter.svg" alt="Letter" style="display: block; width: 100vw; height: 100vh; object-fit: contain; margin: 0; padding: 0;" />
+    <img src="assets/letter.svg" alt="Letter" style="display: block; width: 100vw; height: 100vh; object-fit: contain; margin: 0; padding: 0;" />
   </div>
 <!DOCTYPE html>
 <html lang="en">
@@ -12,7 +12,7 @@
 body {
   margin: 0;
   font-family: 'Quicksand', sans-serif;
-  background: #f7e9ef url('Assets/texture.jpg');
+  background: #f7e9ef url('assets/texture.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -276,25 +276,25 @@ body {
   <div id="heart-minigame" style="position:fixed; top:0; left:0; width:100vw; height:100vh; z-index:30; background:none; pointer-events:auto;">
     <div id="heart-group" style="position:fixed; top:50%; left:50%; transform:translate(-50%,-50%) rotate(-8deg); display:flex; flex-direction:column; align-items:center; transition:all 0.5s cubic-bezier(.68,-0.55,.27,1.55);">
       <div id="heart-message" style="font-size:1.3em; color:#b85c8a; font-weight:600; margin-bottom:10px; text-shadow:0 1px 0 #fff, 0 2px 6px #fbe4ef; background:none;">Click me!</div>
-      <img id="heart-img" src="Assets/heart.png" alt="Heart" style="width:90px; height:90px; transition:opacity 0.4s; cursor:pointer; user-select:none; background:none;" draggable="false" />
+      <img id="heart-img" src="assets/heart.png" alt="Heart" style="width:90px; height:90px; transition:opacity 0.4s; cursor:pointer; user-select:none; background:none;" draggable="false" />
     </div>
   </div>
 
   <div id="envelope-container" style="display:none;">
     <button id="open-envelope" aria-label="Open the letter">
-      <img src="Assets/envelope.png" alt="Open Envelope" class="envelope-img" draggable="false" />
+      <img src="assets/envelope.png" alt="Open Envelope" class="envelope-img" draggable="false" />
       <span class="open-text">Open me!</span>
     </button>
   </div>
 
   <div id="letter-content" style="display:none; width:100vw; height:100vh; position:fixed; top:0; left:0; z-index:20; background:none; justify-content:center; align-items:center;">
-    <img src="letter.svg" alt="Letter" style="display: block; width: 100vw; height: 100vh; object-fit: contain; margin: 0; padding: 0;" />
+    <img src="assets/letter.svg" alt="Letter" style="display: block; width: 100vw; height: 100vh; object-fit: contain; margin: 0; padding: 0;" />
   </div>
 
 
   <div class="hearts" id="hearts"></div>
   <!-- Cozy lofi music for her love -->
-  <audio id="bg-music" src="Assets/Music.mp3" loop autoplay style="display:none"></audio>
+  <audio id="bg-music" src="assets/music.mp3" loop autoplay style="display:none"></audio>
 
   <script>
     // Create floating hearts
